@@ -5,7 +5,10 @@ class StreetsList extends Component{
     constructor(){
         super()
         this.state = {
-            streets: [{street_name: 'Akacjowa', housing_estate: 'Osiedle Brzeziny II'}, {street_name: 'Aleja Armii Krajowej', housing_estate: 'Osiedle Wschód'}]
+            streets: [{street_name: 'Akacjowa', housing_estate: 'Osiedle Brzeziny II'}, 
+            {street_name: 'Aleja Armii Krajowej', housing_estate: 'Osiedle Wschód'},
+            {street_name: 'Test test', housing_estate: 'Osiedle Wschód'}
+        ]
         }
     }
 
