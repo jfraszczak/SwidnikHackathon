@@ -18,7 +18,7 @@ class MapComponent extends Component{
         return(
             <MapContainer
             onClick={()=>{console.log('SIWMA')}}
-                center={[51.21898, 22.69621]}
+                center={[51.2134, 22.69621]}
                 zoom={15}
                 attributionControl={true}
                 zoomControl={true}
@@ -32,15 +32,6 @@ class MapComponent extends Component{
                 url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
                 />
 
-                <Circle 
-                  center={[51.21898, 22.69621]}
-                  fillColor="blue" 
-                  radius={100}
-                  eventHandlers={{click: this.onClick}}/> 
-
-                <Polyline positions={[[51.21386570241472, 22.711367898462925], [51.21454872564601, 22.71217328958403]]} color={'red'} weight={8} eventHandlers={{click: this.onClick}}/>
-    
-   
             </MapContainer>
         )
     }

@@ -24,15 +24,15 @@ class NavBar extends Component{
                 <ul className="navbar-nav mr-auto">
 
                     <li className="nav-item active">
-                    <a className="nav-link" href="#" style={{color: 'white', fontSize: '1.2em'}}>Mapy</a>
-                    </li>
-
-                    <li className="nav-item active">
-                    <a className="nav-link" href="/streets" style={{color: 'white', fontSize: '1.2em'}}>Ulice</a>
+                    <a className="nav-link" href="/streets" style={{color: 'white', fontSize: '1.2em'}}>Ruch drogowy</a>
                     </li>
 
                     <li className="nav-item active">
                     <a className="nav-link" href="/bicycles" style={{color: 'white', fontSize: '1.2em'}}>Rowery miejskie</a>
+                    </li>
+
+                    <li className="nav-item active">
+                    <a className="nav-link" href="/pedestrians" style={{color: 'white', fontSize: '1.2em'}}>Ruch pieszych</a>
                     </li>
                 
                 </ul>
